@@ -6,7 +6,7 @@ public class Employee {
     private String email;
     private Department department;
 
-    public Employee(String fisrtName, String lastName, String email, Department department) {
+    public Employee(String fisrtName, String lastName, String email) {
         this.firstName = fisrtName;
         this.lastName = lastName;
         this.email = email;

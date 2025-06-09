@@ -5,7 +5,7 @@ import examen.utils.GestorExamen;
 public class Main {
     public static void main(String[] args) {
         GestorExamen gestor = new GestorExamen();
-
+        
         try {
             gestor.carregaDades();
 
@@ -22,3 +22,8 @@ public class Main {
     }
 }
 
+/**
+ * en un objeto crear departamento
+ * y con este ir a buscarlo en el set, si esta
+ * me quedo con el que he encontrado, y sino me quedo con el nuevo
+ */
